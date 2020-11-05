@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Window Communication</title>
+</head>
+<body>
+    <h1>Understanding Cross-Window Communication</h1>
+    <iframe src="./2.Cross-Origin-Policy.html" id="iframe" name="one"></iframe>
+    <h2>Collection: window.frames</h2>
+    <iframe name="two" src="https://www.github.com"></iframe>
+    <iframe name="three"></iframe>
+    <h3>SandBox iframe Attribute: Allows for the exclusion of certain actions inside an iframe</h3>
+    <h4>postMessage Interface allows windows to talk to each other no matter which origin they are from</h4>
+</body>
+<script src="../JavaScript/2.js"></script>
+</html>
