@@ -242,4 +242,3 @@ function getScore() {
     input.value = "";
   });
 })();
-a
