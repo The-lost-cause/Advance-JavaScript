@@ -82,6 +82,9 @@ const moles = [
     }
 ];
 
+//  How the Mole Working   Gone--> Hungry--> Sad--> Leaving--> Gone
+//  If mole gets Fed then  Gone--> Hungry--> Fed--> Leaving-->Gone
+  
 function getNextStatus (mole) {
     switch (mole.status) {
 
