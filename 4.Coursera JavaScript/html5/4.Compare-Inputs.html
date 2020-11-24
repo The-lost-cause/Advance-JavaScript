@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week:4</title>
+</head>
+<body>
+    <h1>Comparing the Two Inputs</h1>
+    <form action="">
+        <label>Preferred Email Address:
+            <input type="email" id="email_addr" name="email1" value="me@me.com" required>
+        </label>
+
+        <label>Repeat Email Address:
+            <input type="email" id="email_repeat" name="email2" required onchange="check()">
+        </label>
+        <input type="submit" onclick="return check()">
+    </form>
+</body>
+<script src="../js/4.js"></script>
+</html>
