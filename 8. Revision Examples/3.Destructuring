@@ -1,0 +1,16 @@
+// Destructuring an Array
+
+let [firstName, lastName, ...others] = 'KaranNegi'.split('')
+console.log(firstName, lastName)
+console.log(others)
+
+// Object Destructuring 
+
+let obj = {
+  name: 'karan',
+  age: 25,
+  sex: 'M'
+}
+
+let { age, sex, name } = obj;
+console.log(name, sex, age)

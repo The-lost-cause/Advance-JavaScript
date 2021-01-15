@@ -1,0 +1,23 @@
+// Understanding Maps and Sets
+
+let obj = {
+  name: 'Karan',
+  lastName: 'Singh',
+  sex: 'M'
+}
+
+// Generating MAP from an object
+
+let map = new Map(Object.entries(obj))
+console.log(map)
+console.log(map.get('name'))
+
+// Object.fromEntries
+
+let obj1 = Object.fromEntries(map)
+console.log(obj1)
+
+// SETS
+
+let set = new Set(['Karan', true, 1])
+console.log(set)

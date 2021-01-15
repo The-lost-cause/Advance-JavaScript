@@ -1,0 +1,14 @@
+let arr = [1, 2, 3, 4];
+// Returns comma separated values
+console.log(String(arr)); 
+
+//Splice Method
+let ar = [5, 6, 7, 8];
+console.log(ar.splice(0,2)) // Returns array of delete elm
+console.log(ar)
+
+let a = [NaN]
+console.log(a.indexOf(NaN))
+
+let b = ['a', 'b', 'c', 'd', 'e']
+console.log(b.copyWithin(0, 3, 4))
